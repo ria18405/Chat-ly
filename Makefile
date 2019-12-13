@@ -1,6 +1,10 @@
+all: client server
 
-    
+client: helloclient.c
+	gcc -w -pthread -o client helloclient.c
 
-all :	#target name
-	gcc -pthread helloserver.c -o server
-	gcc -pthread helloclient.c -o client
+server: helloserver.c
+	gcc -w -pthread -o server helloserver.c
+
+clean: 
+	rm server client
