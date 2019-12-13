@@ -11,6 +11,7 @@ To start the server, you need to run ./server on 1 terminal.
 
 To make a client active, open a new terminal and type:
 >" ./client clientname ".
+
 Here clientname is the name of the client who will become active.
 
 Simmilarly, multiple clients can be made active at a time.
