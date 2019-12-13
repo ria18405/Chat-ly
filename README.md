@@ -28,9 +28,10 @@ The output message format is *“Global/personal message from name_of_sender: me
 
 
 **Errors handled:**
+
 *Server side:*
--Binding error
--Listening error
+- Binding error
+* Listening error
 -Accepting error
 -Socket error
 -Sending and receiving error
