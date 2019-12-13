@@ -29,20 +29,20 @@ The output message format is *“Global/personal message from name_of_sender: me
 
 **Errors handled:**
 *Server side:*
-● Binding error
-● Listening error
-● Accepting error
-● Socket error
-● Sending and receiving error
+-Binding error
+-Listening error
+-Accepting error
+-Socket error
+-Sending and receiving error
 
 *Client side:*
-● Connection failure
-● Sending and receiving error
-● Trying to send messages to self
-● Trying to send messages to an undefined client
-● Input format other than SEND/ALL will throw an error
+-Connection failure 
+-Sending and receiving error
+-Trying to send messages to self
+-Trying to send messages to an undefined client
+-Input format other than SEND/ALL will throw an error
 message.
-● Missing argument in case of SEND command(eg. If
+-Missing argument in case of SEND command(eg. If
 client_number is inputted as a string )
 
 
