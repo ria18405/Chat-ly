@@ -8,3 +8,4 @@ server: helloserver.c
 
 clean: 
 	rm server client
+
