@@ -3,11 +3,9 @@
 
 A multi-user chat system that is like a real-time instant message board system, much like IRC. The users can talk to one another and to everyone else. 
 
-To compile the code, run make on the linux terminal.
-`make`
+To compile the code, run `make` on the linux terminal.
 
-To start the server, you need to run ./server on 1 terminal. 
-`./server`
+To start the server, you need to run `./server` on 1 terminal. 
 
 To make a client active, open a new terminal and type:
 `./client clientname`
@@ -17,9 +15,9 @@ Here clientname is the name of the client who will become active. Simmilarly, mu
 
 The 2 keywords used to send messages are:
 
-1. **SEND client_number my_msg** : This sends a personal message to the specific client number. For instance: SEND 4 hey there. client_number is the number assigned to a particular client by the server. The 1st client is assigned the client_number=1.
+1. `**SEND client_number my_msg**` : This sends a personal message to the specific client number. For instance: SEND 4 hey there. client_number is the number assigned to a particular client by the server. The 1st client is assigned the client_number=1.
 
-2. **ALL my_msg** : This sends a broadcast message to everyone (i.e every client connected to the server at a given instance). For instance ALL hello
+2.` **ALL my_msg**` : This sends a broadcast message to everyone (i.e every client connected to the server at a given instance). For instance ALL hello
 
 
 Personal messages and Global(i.e broadcasted) messages can also be differentiated from the receiving client side. When the message is received, the name of the sender is also shown explicitly to avoid confusion. 
