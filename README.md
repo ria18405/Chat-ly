@@ -3,9 +3,15 @@
 
 A multi-user chat system that is like a real-time instant message board system, much like IRC. The users can talk to one another and to everyone else. 
 
-To compile the code, run make on the linux terminal. To start the server, you need to run ./server on 1 terminal. 
-To make a client active, open a new terminal and type :
->" ./client name_of_the_client ".
+To compile the code, run make on the linux terminal.
+>make
+
+To start the server, you need to run ./server on 1 terminal. 
+>./server
+
+To make a client active, open a new terminal and type:
+>" ./client clientname ".
+Here clientname is the name of the client who will become active.
 
 Simmilarly, multiple clients can be made active at a time.
 
